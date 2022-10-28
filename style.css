@@ -1,6 +1,7 @@
 
 body {
     font-family: roboto, sans-serif;
+    
 }
 
 .top {
@@ -79,4 +80,39 @@ button {
     font-size: 18px;
     font-weight: bolder;
     color: #E5E7EB;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #1F2937
+}
+
+.image-c {
+    width: 275px;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 5px solid #3882F6;
+    border-radius: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.container-images {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin: 35px;  */
+    padding: 37px;
+    color: #1F2937;
 }
